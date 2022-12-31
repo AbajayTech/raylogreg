@@ -33,7 +33,8 @@ if(isset($_SESSION['user_email']) && !empty($_SESSION['user_email'])){
 <body>
 <div class="container">
     <h1>Hello, <?php echo $userData['username'];?></h1>
-    <a href="logout.php">Logout</a>
+    <a href="logout.php">Logout</a><br>
+    <a href="index2.php"> Upload Image </a>
 </div>
 </body>
 </html>
